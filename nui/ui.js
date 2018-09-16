@@ -114,7 +114,7 @@ function init() {
 
 // Send data to lua for processing.
 function sendData( name, data ) {
-    $.post( "http://wk_actionmenu/" + name, JSON.stringify( data ), function( datab ) {
+    $.post( "http://sp-mek/" + name, JSON.stringify( data ), function( datab ) {
         if ( datab != "ok" ) {
             console.log( datab );
         }            
