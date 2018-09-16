@@ -24,20 +24,21 @@
         		is the same id as the div below. All submenus must also have a data-parent attribute. 
         	 -->
         	<div id="mainmenu">
-	            <button class="menuoption" data-sub="examplesubmenu">Tuning & Reperation</button>
+	            <button class="menuoption" data-sub="tunrep">Tuning & Reperation</button>
 	            <button class="menuoption" data-action="button1">Bildele</button>
 	            <button class="menuoption" data-action="button2">Hent flere dele</button> 
 			</div>
 
-    			<div id="examplesubmenu" data-parent="mainmenu" style="display: none;">
-                    <button class="menuoption" data-sub="anothersubmenu">Tuning</button>
+    			<div id="tunrep" data-parent="mainmenu" style="display: none;">
+                    <button class="menuoption" data-sub="tuning">Tuning</button>
     				<button class="menuoption" data-action="button3">Reperation</button>
     				<button class="menuoption" data-action="button4">Blah?</button>
     			</div>
 
-                    <div id="anothersubmenu" data-parent="examplesubmenu" style="display: none;">
+                    <div id="tuning" data-parent="tunrep" style="display: none;">
                         <button class="menuoption" data-action="button5">Turbo</button>
                         <button class="menuoption" data-action="button6">Motor</button>
+                        <button class="menuoption" data-action="button7">Maling</butoon>
                     </div>
         </div>
     </body>

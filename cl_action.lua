@@ -87,7 +87,7 @@ SetNuiFocus( false )
 while true do
   -- Control ID 20 is the 'Z' key by default
   -- Use https://wiki.fivem.net/wiki/Controls to find a different key
-  if GetDistanceBetweenCoords(GetEntityCoords(GetPlayerPed(-1)), 544.286,-173.314,54.481, true) <= 2 then
+  if GetDistanceBetweenCoords(GetEntityCoords(GetPlayerPed(-1)), -216.389,-1318.833,30.890, true) <= 2 then
     if ( IsControlJustPressed( 1, 38 ) ) then
       ToggleActionMenu()
     end

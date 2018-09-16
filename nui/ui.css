@@ -34,7 +34,7 @@
 }
 
 #actionmenu button { 
-    background: linear-gradient(to bottom, #0eafff 0%,#35ddff 100%);
+    background: #0eafff;
     /*background: linear-gradient( to bottom, rgb( 240, 240, 240 ), rgb( 200, 200, 200 ) );*/
     color: white; 
     font-family: 'Lato', sans-serif;
@@ -42,16 +42,16 @@
     padding: 10px 24px; 
     margin: 8px 8px 8px 8px;
     cursor: pointer; 
-    width: 150px; 
+    width: 180px; 
     display: block; 
     text-transform: uppercase;
     text-shadow: 1px 0 0 #000, -1px 0 0 #000, 0 1px 0 #000, 0 -1px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
 }
 
 #actionmenu button:hover {
-    background: linear-gradient( to bottom, rgb( 255, 255, 255 ), rgb( 190, 190, 190 ) );
+    background: #35ddff;
 }
 
 #actionmenu button:active {
-    background: linear-gradient( to bottom, rgb( 220, 220, 220 ), rgb( 170, 170, 170 ) );
+    background: #35ddff;
 }
