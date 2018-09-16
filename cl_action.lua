@@ -49,17 +49,17 @@ variable data.
 ------------------------------------------------------------------------]]--
 RegisterNUICallback( "ButtonClick", function( data, cb )
 if ( data == "button1" ) then
-  chatPrint( "Api er elendig til lua <3!" )
+  chatPrint( "Du har ikke nogle bildele" )
 elseif ( data == "button2" ) then
-  chatPrint( "Button 2 pressed!" )
+  chatPrint( "Du kan ikke hente dele endnu din idiot" )
 elseif ( data == "button3" ) then
-  chatPrint( "Button 3 pressed!" )
+  chatPrint( "Kør bilen i vandet!" )
 elseif ( data == "button4" ) then
-  chatPrint( "Button 4 pressed!" )
+  chatPrint( "Bluh!" )
 elseif ( data == "button5" ) then
-  chatPrint( "Button 5 pressed!" )
+  chatPrint( "Tryk hårdere på speederen!" )
 elseif ( data == "button6" ) then
-  chatPrint( "Button 6 pressed!" )
+  chatPrint( "Tjek Bilka" )
 elseif ( data == "exit" ) then
   -- We toggle the ActionMenu and return here, otherwise the function
   -- call below would be executed too, which would just open the menu again
@@ -109,5 +109,5 @@ end
 end )
 
 function chatPrint( msg )
-  TriggerEvent( 'chatMessage', "SletIkkeActionMenu", { 255, 255, 255 }, msg )
+  TriggerEvent( 'chatMessage', "Mekaniker", { 255, 255, 255 }, msg )
 end
